@@ -2,36 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Letter to Yash from Anusha</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>For Bae</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="envelope-wrapper">
-            <div class="envelope">
-                <div class="letter">
-                    <div class="text">
-                        <strong>Dear Yash,</strong>
-                        <p> Your laughter is a melody, brightening dull days. 
-                            Spending time with you revealed the depth of your character and genuine kindness.
-                            I cherish our bond and hope it continues, teasing me but leaving me with a smile.
-                            Miss you <3.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="heart"></div>
-        </div>
-        
+    <div id="hearts"></div>
+    <div id="message">
+        <span id="text">I love your smile</span>
+        <span id="emoji">❤️</span>
     </div>
-    
-    <script>
-        const envelope = document.querySelector('.envelope-wrapper');
-        envelope.addEventListener('click', () => {
-            envelope.classList.toggle('flap');
-        });
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
